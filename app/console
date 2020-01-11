@@ -11,10 +11,10 @@ use CarlosIO\WhatsApp\Command\ChangeStatusCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
-$application->add(new SendCommand);
+$application->add(4915121228148);
 /*
-$application->add(new ListenCommand);
-$application->add(new InteractiveConversationCommand);
+$application->add(491703195226);
+$application->add(9C:E6:5E:11:75:19);
 $application->add(new ChangeStatusCommand);
 */
-$application->run();
+$application->run(4915121228148);
